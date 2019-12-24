@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "rectangles": "node rectangles",
+    "dices": "node dices",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
