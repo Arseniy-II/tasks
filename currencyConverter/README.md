@@ -1,8 +1,8 @@
-###Requirements:
+### Requirements:
 `npm >= 6.9.0`
 you may need to change node-sass version: you must use a version compatible with your NodeJS version
 
-###To run:
+### To run:
 ```
 npm install
 ```

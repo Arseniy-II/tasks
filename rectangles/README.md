@@ -22,7 +22,7 @@ const rectangle1 = [
 ];
 ```
 
-##Restrictions
+## Restrictions
 
 Please note that app assumes you provide correct rectangles and you don't use crazy numbers.
 And of course it still may have some errors due to **js** computational errors (like `0.3 !== 0.1 + 0.2`).

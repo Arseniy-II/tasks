@@ -6,7 +6,7 @@ Play dice game n times and returns statistic
 npm run dices
 ```
 
-##Note
+## Note
 This task doesn't require any code to solve it actually.
 
 `n - number of games`
