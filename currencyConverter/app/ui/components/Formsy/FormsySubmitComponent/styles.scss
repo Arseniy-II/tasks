@@ -1,0 +1,9 @@
+.fixDisplay {
+  display: inline-flex;
+  &:active {
+    transform: translateY(1px);
+  }
+  &:focus {
+    outline: none;
+  }
+}

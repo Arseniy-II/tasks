@@ -1,0 +1,43 @@
+@mixin mobile($xl: $container-md) {
+  @media (max-width: if($xl, $xl - 1px, $screen-desktop - 1px)) {
+    @content;
+  }
+}
+
+@mixin desktop($xl: $container-md) {
+  @media (min-width: if($xl, $xl, $screen-desktop)) {
+    @content;
+  }
+}
+
+@mixin inputLabel {
+  color: $black;
+  align-items: center;
+  font-size: 12px;
+}
+@mixin inputRequired {
+  margin-left: $gap-xs;
+  color: $danger;
+}
+@mixin inputError {
+  display: block;
+  left: 0;
+  color: $danger;
+  animation: opaque $time ease-out both;
+  text-transform: none;
+  font-size: 12px;
+}
+
+@mixin box {
+  background-color: $white;
+  @include mobile {
+    padding: 30px 20px
+  }
+  @include desktop {
+    padding: 60px 40px
+  }
+}
+
+@mixin inputMargin() {
+  margin: 0 0 15px 0;
+}

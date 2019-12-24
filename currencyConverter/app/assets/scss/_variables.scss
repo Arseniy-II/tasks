@@ -1,0 +1,32 @@
+$white: #fff;
+$gray-100: #F5F5F5;
+$gray-500: #adb5bd;
+$black: #000;
+
+$primary: #54CEC6;
+$accent: #0066FF;
+$danger: #ff0000;
+
+$gap-xs: 5px;
+$gap-sm: 10px;
+$gap-md: 15px;
+$gap-lg: 30px;
+
+$ver-xs: 5px;
+$ver-sm: 10px;
+$ver-md: 20px;
+$ver-lg: 30px;
+
+$screen-desktop: 1024px;
+$container-md: 768px;
+$screen-tablet: 630px;
+
+$box-shadow: 0 0 28px 0 transparentize($black, 0.8);
+$box-shadow-small: 0 4px 5px transparentize($black, 0.8);
+$box-shadow-dark: 0 0 28px 0 $black;
+
+$border: 1px solid $gray-500;
+
+$time: 200ms;
+$time-md: 300ms;
+$time-long: 1000ms;

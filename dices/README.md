@@ -1,4 +1,4 @@
-# Rectangles task
+# Dices task
 Play dice game n times and returns statistic
 
 ## How to run

@@ -1,0 +1,41 @@
+$size-sm: 30px;
+$size-md: 40px;
+$size-lg: 50px;
+
+
+.button {
+  background-color: $accent;
+  color: $white;
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  min-height: $size-md;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.2;
+  text-decoration: none;
+  text-transform: uppercase;
+  border:none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: color $time ease-out, transform $time ease-out, background-color $time ease-out, opacity $time ease-out, border $time ease-out;
+  &:active {
+    transform: translateY(1px);
+  }
+  &.buttonDisabled {
+    pointer-events: none;
+  }
+  @include mobile {
+    padding: 0 $gap-sm;
+  }
+  @include desktop {
+    padding: 0 $gap-md;
+  }
+}
+
+.buttonDisabled {
+  opacity: 0.5 !important;
+  pointer-events: none;
+}

@@ -1,0 +1,51 @@
+.box {
+  @include box;
+  flex-direction: column;
+}
+
+.currencies {
+  display: flex;
+  font-size: 20px;
+  margin-bottom: $ver-md;
+  @include mobile(340px) {
+    flex-direction: column;
+  }
+}
+
+.currencyBox {
+  display: flex;
+  align-items: center;
+
+  @include desktop(340px) {
+    margin-right: $gap-md;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  @include mobile(340px) {
+    margin-bottom: $ver-md;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+}
+
+.currencyLabel {
+  margin-right: $gap-md;
+  @include mobile(340px) {
+    flex: 1 1 auto;
+  }
+}
+.select {
+  border: 1px solid $primary !important;
+  box-shadow: none;
+  outline: none;
+  padding: 0 20px;
+  height: 30px;
+  cursor: pointer;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
