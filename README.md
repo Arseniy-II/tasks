@@ -1,4 +1,4 @@
-##Test task made by Arseniy Ivanov
+#Test task made by Arseniy Ivanov
 
 ### Rectangles task
 [Readme](rectangles/README.md)
