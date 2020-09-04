@@ -22,7 +22,7 @@
     "cross-env": "^5.2.0",
     "error-overlay-webpack-plugin": "^0.1.5",
     "formsy-react": "^1.1.5",
-    "node-sass": "4.12.0",
+    "node-sass": "4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-avatar": "^3.6.0",
